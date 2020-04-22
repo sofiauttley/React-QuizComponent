@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class QuizEnd extends React.Component{
-    render{
+    render () {
         return(
             <div>
                 <p>Thanks for playing!</p>
