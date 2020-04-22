@@ -5,7 +5,7 @@ class QuizQuestionButton extends React.Component {
         return(
             <li>
                 <button>
-                {button_text}
+                {this.props.button_text}
                 </button>
             </li>
         )
