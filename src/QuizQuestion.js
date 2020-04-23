@@ -12,8 +12,9 @@ class QuizQuestion extends React.Component {
                 </section>
                 <section className="buttons">
                     <ul>
-                        <QuizQuestionButton button_text=
-                        {this.props.quiz_question.answer_options[0]}/>
+                        <QuizQuestionButton button_text={this.props.quiz_question.answer_options[0]}
+                        quiz_question.map
+                        />
                     </ul>
                 </section>
             </main>
