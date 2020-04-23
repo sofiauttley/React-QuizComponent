@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class QuizEnd extends React.Component{
     handleResetClick() {
         onClick((a) => {
-            this.handleResetClick.bind)this
+            this.handleResetClick.bind(this)
         })
     }
     render () {
