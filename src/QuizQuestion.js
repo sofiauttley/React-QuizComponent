@@ -13,7 +13,6 @@ class QuizQuestion extends React.Component {
                 <section className="buttons">
                     <ul> {this.props.quiz_question.answer_options.map((answer_option, index) => (
                         <QuizQuestionButton button_text={this.props.quiz_question.answer_options[0]}
-                        quiz_question.answer_options.map
                         />)}
                     </ul>
                 </section>
